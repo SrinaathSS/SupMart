@@ -1,0 +1,90 @@
+.pos-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.pos-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.transaction-controls {
+  margin-bottom: 20px;
+}
+
+.transaction-controls label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.transaction-controls input {
+  margin-right: 5px;
+}
+
+.amount-input {
+  margin-bottom: 20px;
+}
+
+.amount-input label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.amount-input input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.receipt {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.receipt h2 {
+  margin: 0 0 10px 0;
+}
+
+.history {
+  margin-top: 20px;
+}
+
+.history h2 {
+  margin-bottom: 10px;
+}
+
+.history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.history ul li {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}

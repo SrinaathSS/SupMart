@@ -1,0 +1,119 @@
+.employee-management {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  height: 100vh;
+  overflow: scroll !important;
+}
+
+.employee-management::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.employee-table th,
+.employee-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.employee-table th {
+  background-color: #d0e7ff; /* Light blue background for table headers */
+  color: #333;
+}
+
+.employee-table tr:nth-child(even) {
+  background-color: #e8f4ff; /* Even rows with lighter blue */
+}
+
+.employee-table tr:hover {
+  background-color: #cce6ff; /* Hover effect with blue tint */
+}
+
+.add-employee-form,
+.edit-employee-form {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #e8f4ff; /* Light blue background for forms */
+  margin-top: 20px;
+}
+
+.add-employee-form h2,
+.edit-employee-form h2 {
+  text-align: center;
+  color: #333;
+}
+
+.add-employee-form input,
+.edit-employee-form input,
+.add-employee-form select,
+.edit-employee-form select {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.add-employee-form button,
+.edit-employee-form button {
+  background-color: #007BFF; /* Blue button background */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-employee-form button:hover,
+.edit-employee-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+button {
+  background-color: #007BFF; /* Blue button background */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+button:focus {
+  outline: none;
+}
+
+.user-table td,
+.user-table th {
+  padding: 10px;
+}
+
+.user-table select {
+  width: 100%;
+}

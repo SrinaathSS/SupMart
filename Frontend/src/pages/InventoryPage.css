@@ -1,0 +1,83 @@
+.inventory-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inventory-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.add-product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.add-product-form h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.form-subheading {
+  color: #555;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.add-product-form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.add-product-form button {
+  background-color: #007BFF; /* Blue button background */
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-product-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.inventory-container h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.inventory-container ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.inventory-container ul li {
+  background-color: #e8f4ff; /* Light blue background for list items */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.inventory-container ul li h3 {
+  margin: 0;
+}
+
+.inventory-container ul li p {
+  margin: 5px 0;
+}

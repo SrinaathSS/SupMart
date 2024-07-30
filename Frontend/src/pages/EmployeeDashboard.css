@@ -1,0 +1,37 @@
+.dashboard {
+  padding: 2rem;
+  background-color: #f4f4f4;
+}
+
+.dashboard h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-content {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.dashboard-card {
+  background: #fff; /* White */
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 300px;
+}
+
+.dashboard-card h2 {
+  margin-top: 0;
+}
+
+.dashboard-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard-card li {
+  margin-bottom: 0.5rem;
+}

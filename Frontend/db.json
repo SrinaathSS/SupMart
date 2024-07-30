@@ -1,0 +1,161 @@
+{
+  "admins": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "adminpass"
+    }
+  ],
+  "employees": [
+    {
+      "id": "2",
+      "username": "employee2",
+      "password": "employeepass",
+      "email": "employee2@example.com",
+      "contactNumber": "234-567-8901",
+      "role": "Inventory Manager"
+    },
+    {
+      "id": "3",
+      "username": "employee3",
+      "password": "employeepass",
+      "email": "employee3@example.com",
+      "contactNumber": "345-678-9012",
+      "role": "Supply Manager"
+    },
+    {
+      "id": "4",
+      "username": "employee4",
+      "password": "employeepass",
+      "email": "employee4@example.com",
+      "contactNumber": "456-789-0123",
+      "role": "Sales Employee"
+    },
+    {
+      "id": "5",
+      "username": "employee5",
+      "password": "employeepass",
+      "email": "employee5@example.com",
+      "contactNumber": "567-890-1234",
+      "role": "Stocks Manager"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "mobile": "123-456-7890",
+      "address": "123 Elm Street",
+      "purchaseDetails": "Purchased Product A",
+      "lastPurchaseDate": "2024-07-15",
+      "totalSpent": "$120"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "mobile": "234-567-8901",
+      "address": "456 Oak Avenue",
+      "purchaseDetails": "Purchased Product B",
+      "lastPurchaseDate": "2024-06-10",
+      "totalSpent": "$150"
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "mobile": "345-678-9012",
+      "address": "789 Pine Road",
+      "purchaseDetails": "Purchased Product C",
+      "lastPurchaseDate": "2024-05-20",
+      "totalSpent": "$200"
+    },
+    {
+      "id": 4,
+      "name": "Bob Brown",
+      "email": "bob@example.com",
+      "mobile": "456-789-0123",
+      "address": "101 Maple Lane",
+      "purchaseDetails": "Purchased Product D",
+      "lastPurchaseDate": "2024-04-25",
+      "totalSpent": "$180"
+    },
+    {
+      "id": 5,
+      "name": "Emily Davis",
+      "email": "emily@example.com",
+      "mobile": "567-890-1234",
+      "address": "202 Birch Street",
+      "purchaseDetails": "Purchased Product E",
+      "lastPurchaseDate": "2024-07-10",
+      "totalSpent": "$220"
+    },
+    {
+      "id": 6,
+      "name": "Michael Wilson",
+      "email": "michael@example.com",
+      "mobile": "678-901-2345",
+      "address": "303 Cedar Avenue",
+      "purchaseDetails": "Purchased Product F",
+      "lastPurchaseDate": "2024-06-25",
+      "totalSpent": "$250"
+    },
+    {
+      "id": 7,
+      "name": "Olivia Martinez",
+      "email": "olivia@example.com",
+      "mobile": "789-012-3456",
+      "address": "404 Maple Lane",
+      "purchaseDetails": "Purchased Product G",
+      "lastPurchaseDate": "2024-05-15",
+      "totalSpent": "$175"
+    },
+    {
+      "id": 8,
+      "name": "William Brown",
+      "email": "william@example.com",
+      "mobile": "890-123-4567",
+      "address": "505 Elm Street",
+      "purchaseDetails": "Purchased Product H",
+      "lastPurchaseDate": "2024-04-30",
+      "totalSpent": "$190"
+    },
+    {
+      "id": 9,
+      "name": "Sophia Taylor",
+      "email": "sophia@example.com",
+      "mobile": "901-234-5678",
+      "address": "606 Oak Avenue",
+      "purchaseDetails": "Purchased Product I",
+      "lastPurchaseDate": "2024-07-01",
+      "totalSpent": "$230"
+    },
+    {
+      "id": 10,
+      "name": "James Anderson",
+      "email": "james@example.com",
+      "mobile": "012-345-6789",
+      "address": "707 Pine Road",
+      "purchaseDetails": "Purchased Product J",
+      "lastPurchaseDate": "2024-06-05",
+      "totalSpent": "$160"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Milk Bikis",
+      "quantity": 100,
+      "price": 10,
+      "category": "Biscuits"
+    },
+    {
+      "id": "1722322592861",
+      "name": "Good Day",
+      "price": 20,
+      "quantity": 100,
+      "category": "Biscuits"
+    }
+  ]
+}

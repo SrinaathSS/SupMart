@@ -1,0 +1,45 @@
+.customer-management-container {
+  background-color: #fff; /* White */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.customer-management-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.customer-inquiries, .customer-complaints, .customer-returns {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.Cbut {
+  background-color: #007bff; /* Blue */
+  color: #fff; /* White */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.Cbut:hover {
+  background-color: #0056b3; /* Darker Blue */
+}
