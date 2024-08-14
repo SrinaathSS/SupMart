@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.navbar-component {
+  transition: width 0.3s;
+}
+
+.page-content {
+  flex-grow: 1;
+  transition: margin-left 0.3s;
+  margin-left: 80px;
+} 
+
+.content-shift {
+  margin-left: 170px;
+}

@@ -1,0 +1,130 @@
+/* Employee Management Styling */
+.employee-management {
+  font-family: 'Roboto', sans-serif; /* Modern, clean font */
+  padding: 2rem; /* Adjusted for consistency with the theme */
+  max-width: 1200px;
+  margin: auto;
+  height: 100vh;
+  overflow: auto;
+}
+
+/* Hide the scrollbar but keep the scrolling */
+.employee-management::-webkit-scrollbar {
+  display: none;
+}
+
+/* Heading Styling */
+h1 {
+  text-align: center;
+  color: #00796b; /* Primary color */
+  font-size: 2rem; /* Consistent with the theme */
+}
+
+/* Table Styling */
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem; /* Consistent spacing */
+}
+
+.employee-table th,
+.employee-table td {
+  border: 1px solid #ddd; /* Light Gray Border */
+  padding: 0.75rem; /* Adjusted for readability */
+  text-align: center;
+}
+
+.employee-table th {
+  background-color: #f1f1f1; /* Light Gray Background for headers */
+  color: #333; /* Dark Gray Text */
+}
+
+.employee-table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Even rows with lighter gray */
+}
+
+.employee-table tr:hover {
+  background-color: #e1f5fe; /* Light Blue Tint for hover effect */
+}
+
+/* Form Styling */
+.add-employee-form,
+.edit-employee-form {
+  border: 1px solid #ddd; /* Light Gray Border */
+  padding: 1.5rem; /* Adjusted padding */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #e1f5fe; /* Light Blue Background */
+  margin-top: 1.5rem; /* Consistent spacing */
+}
+
+.add-employee-form h2,
+.edit-employee-form h2 {
+  text-align: center;
+  color: #00796b; /* Primary color */
+  font-size: 1.5rem; /* Consistent font size */
+}
+
+/* Form Inputs and Buttons */
+.add-employee-form input,
+.edit-employee-form input,
+.add-employee-form select,
+.edit-employee-form select {
+  width: calc(100% - 22px);
+  padding: 0.75rem;
+  margin: 0.75rem 0;
+  border: 1px solid #ddd; /* Light Gray Border */
+  border-radius: 4px; /* Subtle rounded corners */
+}
+
+/* Buttons in Forms */
+.add-employee-form button,
+.edit-employee-form button {
+  background-color: #00796b; /* Primary color */
+  color: white;
+  border: none;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem; /* Consistent font size */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-employee-form button:hover,
+.edit-employee-form button:hover {
+  background-color: #004d40; /* Darker Teal on hover */
+}
+
+/* General Button Styling */
+button {
+  background-color: #00796b; /* Primary color */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  display: inline-block;
+  font-size: 0.875rem; /* Smaller font size */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+  margin: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #004d40; /* Darker Teal on hover */
+}
+
+button:focus {
+  outline: none;
+}
+
+/* User Table Adjustments */
+.user-table td,
+.user-table th {
+  padding: 0.75rem; /* Consistent padding */
+}
+
+.user-table select {
+  width: 100%;
+}

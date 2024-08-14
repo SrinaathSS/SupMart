@@ -1,0 +1,78 @@
+/* Importing a Google Font for a modern look */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Sales Details Styling */
+.sales-details {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff; /* White background */
+  font-family: 'Roboto', sans-serif; /* Modern and clean font */
+}
+
+.sales-details h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem; /* Consistent font size */
+  color: #00796b; /* Teal Blue */
+  font-weight: 500; /* Medium weight for emphasis */
+}
+
+.sales-card {
+  background-color: #ffffff; /* White background */
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px; /* Subtle rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s;
+}
+
+.sales-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* More prominent shadow on hover */
+  transform: translateY(-2px); /* Subtle lift effect */
+}
+
+.sales-card h3 {
+  font-size: 1.25rem; /* Consistent font size */
+  margin-bottom: 1rem;
+  color: #004d40; /* Dark Teal */
+}
+
+.sales-card p {
+  font-size: 1.125rem; /* Consistent font size */
+  color: #00796b; /* Teal Blue */
+  font-weight: 500; /* Medium weight for emphasis */
+}
+
+.sales-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sales-card ul li {
+  font-size: 1rem; /* Consistent font size */
+  color: #555; /* Dark Gray */
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd; /* Light Gray */
+  cursor: pointer; /* Pointer cursor for hover */
+  transition: background-color 0.2s ease-in-out;
+}
+
+.sales-card ul li:hover {
+  background-color: #f5f5f5; /* Light background on hover */
+}
+
+.sales-card ul li:last-child {
+  border-bottom: none; /* Remove bottom border for the last item */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sales-details {
+    padding: 1.5rem; /* Adjust padding for smaller screens */
+  }
+
+  .sales-card {
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
+}

@@ -1,0 +1,53 @@
+/* Customer Management Container Styling */
+.customer-management-container {
+  background-color: #ffffff; /* White background for a clean look */
+  padding: 2rem; /* Consistent padding */
+  margin: 2rem auto; /* Centered with margin */
+  max-width: 800px; /* Maximum width */
+  font-family: 'Roboto', sans-serif; /* Modern and clean font */
+}
+
+/* Main Heading Styling */
+.customer-management-container h1 {
+  color: #00796b; /* Primary color for headings */
+  margin-bottom: 1.5rem; /* Consistent spacing */
+  font-size: 2rem; /* Larger font size for emphasis */
+}
+
+/* Section Styling */
+.customer-inquiries, .customer-complaints, .customer-returns {
+  margin-bottom: 1.5rem; /* Consistent spacing */
+}
+
+/* Label Styling */
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333; /* Dark gray for readability */
+}
+
+/* Input Styling */
+input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  margin-bottom: 1rem; /* Consistent spacing */
+}
+
+/* Button Styling */
+.Cbut {
+  background-color: #00796b; /* Primary color for buttons */
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 1rem; /* Consistent font size */
+  transition: background-color 0.3s;
+}
+
+.Cbut:hover {
+  background-color: #004d40; /* Darker shade on hover */
+}

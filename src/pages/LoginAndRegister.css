@@ -1,0 +1,77 @@
+/* Login/Register Page Styling */
+.login-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f9; /* Light background for the whole page */
+}
+
+.form-container {
+  background-color: #ffffff; /* White background for the form */
+  padding: 2rem;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 100%;
+  max-width: 400px; /* Maximum width for form container */
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  color: #00796b; /* Primary color for headings */
+  font-size: 1.75rem; /* Consistent font size */
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 1rem; /* Consistent font size */
+}
+
+.submit, .but {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #00796b; /* Primary color for buttons */
+  color: #ffffff;
+  border: none;
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+  margin: 0.5rem 0;
+  font-size: 1rem; /* Consistent font size */
+  transition: background-color 0.3s;
+}
+
+.submit:hover {
+  background-color: #004d40; /* Darker shade on hover */
+}
+
+.but:hover {
+  background-color: white; /* Light teal on hover for contrast */
+  color: #00796b; /* Change text color on hover */
+}
+
+.toggle {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.toggle button {
+  background: none;
+  border: none;
+  color: #00796b; /* Primary color for toggle buttons */
+  cursor: pointer;
+  font-size: 0.875rem; /* Slightly smaller font size */
+}
+
+.toggle button:hover {
+  text-decoration: underline;
+}
+
+form {
+  margin-right: 0;
+}

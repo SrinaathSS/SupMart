@@ -1,0 +1,75 @@
+/* Importing a Google Font for a modern look */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Reports Container Styling */
+.reports-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff; /* White background */
+  font-family: 'Roboto', sans-serif; /* Modern, clean font */
+}
+
+/* Reports Title Styling */
+.reports-title {
+  text-align: center;
+  font-size: 1.75rem; /* Adjusted font size for consistency with the theme */
+  color: #00796b; /* Teal Blue */
+  margin-bottom: 1.5rem; /* Consistent spacing */
+}
+
+/* Chart Styling */
+.chart {
+  margin-bottom: 2rem; /* Consistent spacing */
+  padding: 1.5rem;
+  background-color: #ffffff; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  height: 300px;
+  width: 100%; /* Full width within max-width */
+}
+
+/* Chart Title Styling */
+.chart-title {
+  text-align: center;
+  font-size: 1.25rem; /* Adjusted font size for consistency */
+  color: #333; /* Dark gray for readability */
+  margin-bottom: 1rem; /* Consistent spacing */
+}
+
+/* Data Table Styling */
+.data-table {
+  background-color: #ffffff; /* White background */
+  padding: 1.5rem;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Table Title Styling */
+.table-title {
+  font-size: 1.25rem; /* Font size for table titles */
+  color: #00796b; /* Teal Blue */
+  margin-bottom: 1rem; /* Consistent spacing */
+  text-align: center; /* Centered title */
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse; /* Ensures borders are not duplicated */
+}
+
+th, td {
+  padding: 0.75rem; /* Adjusted padding for readability */
+  text-align: center;
+  border-bottom: 1px solid #ddd; /* Light gray border */
+}
+
+th {
+  background-color: #f9f9f9; /* Very light gray for headers */
+  color: #333; /* Dark gray text for headers */
+}
+
+tr:hover {
+  background-color: #f1f1f1; /* Slightly darker gray for hover effect */
+}
